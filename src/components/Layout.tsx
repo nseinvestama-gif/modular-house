@@ -31,15 +31,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3 group">
               <img 
                 src="/logo.svg" 
-                alt="Modular House" 
-                className="h-12 w-auto"
+                alt="Modulra" 
+                className="h-12 w-auto group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="flex flex-col leading-tight">
-                <span className="text-[#0F3460] font-black text-2xl tracking-tighter">MODULAR</span>
-                <span className="text-[#F59E0B] font-extrabold text-xs tracking-[0.25em] uppercase">HOUSE</span>
+              <div className="flex flex-col leading-none">
+                <span className="text-[#0F3460] font-black text-3xl tracking-tight font-sans">MODULRA</span>
+                <div className="flex items-center gap-2">
+                   <div className="h-[2px] w-4 bg-[#F59E0B]"></div>
+                   <span className="text-[#F59E0B] font-bold text-[10px] tracking-[0.3em] uppercase">LIVING SYSTEMS</span>
+                </div>
               </div>
             </Link>
 
@@ -115,7 +118,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <span className="text-xl font-bold text-white">MODULAR HOUSE</span>
+                <span className="text-xl font-bold text-white tracking-wider">MODULRA</span>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Creating Solutions For Everyone. Solusi hunian modular yang cepat, hemat, dan berkualitas.
@@ -125,8 +128,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h3 className="text-lg font-bold mb-6 text-[#F59E0B]">Produk</h3>
               <ul className="space-y-3 text-gray-300 text-sm">
-                <li><Link to="/gallery" className="hover:text-white transition-colors">Modular 3x6m</Link></li>
-                <li><Link to="/gallery" className="hover:text-white transition-colors">Modular 2 Lantai</Link></li>
+                <li><Link to="/gallery" className="hover:text-white transition-colors">Modulra 3x6m</Link></li>
+                <li><Link to="/gallery" className="hover:text-white transition-colors">Modulra 2 Lantai</Link></li>
                 <li><Link to="/gallery" className="hover:text-white transition-colors">Tempered Glass</Link></li>
               </ul>
             </div>
@@ -143,7 +146,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h3 className="text-lg font-bold mb-6 text-[#F59E0B]">Kontak</h3>
               <ul className="space-y-3 text-gray-300 text-sm">
-                <li>admin@modularhouse.com</li>
+                <li>admin@modulra.com</li>
                 <li>
                   <div className="flex flex-col gap-2 mt-2">
                     <a href="https://wa.me/6282124987380" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#25D366] transition-colors group">
@@ -162,7 +165,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
           
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
-             2026 Modular House. All rights reserved.
+             2026 Modulra. All rights reserved.
           </div>
         </div>
       </footer>

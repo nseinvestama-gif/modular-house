@@ -29,7 +29,7 @@ export default function Gallery() {
             Size Variations
           </h1>
           <p className="text-[#F59E0B] text-xl font-medium tracking-widest uppercase">
-            Modular House
+            Modulra Spaces
           </p>
         </div>
       </div>
