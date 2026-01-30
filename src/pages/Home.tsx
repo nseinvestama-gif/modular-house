@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[600px] flex items-center justify-center bg-[#0F3460] overflow-hidden">
+      <div className="relative min-h-[500px] md:h-[600px] flex items-center justify-center bg-[#0F3460] overflow-hidden py-20 md:py-0">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20"></div>
         <div className="container mx-auto px-4 md:px-8 relative z-10 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
+          <h1 className="text-3xl md:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
             INCLUSIVE MODULAR CONCEPTS<br/>
-            <span className="text-[#F59E0B] text-2xl md:text-4xl font-normal tracking-widest mt-2 block">CREATING SOLUTIONS FOR EVERYONE</span>
+            <span className="text-[#F59E0B] text-xl md:text-4xl font-normal tracking-widest mt-2 block">CREATING SOLUTIONS FOR EVERYONE</span>
           </h1>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto font-light">
             Solusi hunian dan kantor modular modern yang Cepat, Kuat, dan Hemat Biaya.
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="w-24 h-1 bg-[#F59E0B] mx-auto rounded-full"></div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredHouses.map((house) => (
               <Link key={house.id} to="/gallery" className="group">
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300">
@@ -144,7 +144,7 @@ export default function Home() {
       <div className="py-20 bg-[#0F3460] text-white">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl font-bold text-center mb-16">Apa Kata Mereka?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="bg-[#1a4b85] p-8 rounded-xl shadow-lg border border-[#ffffff10]">
                 <div className="flex items-center gap-4 mb-6">

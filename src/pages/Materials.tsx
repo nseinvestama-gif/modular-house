@@ -23,7 +23,7 @@ export default function Materials() {
                 <img
                   src={material.image}
                   alt={material.title}
-                  className="rounded-2xl shadow-2xl w-full h-[400px] object-cover hover:shadow-3xl transition-shadow duration-300"
+                  className="rounded-2xl shadow-2xl w-full h-64 md:h-[400px] object-cover hover:shadow-3xl transition-shadow duration-300"
                 />
               </div>
               <div className="w-full md:w-1/2">

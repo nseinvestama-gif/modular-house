@@ -53,7 +53,7 @@ export default function Gallery() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
           {filteredHouses.map((house) => (
             <div key={house.id} className="group bg-white rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
               {/* Image Container */}
@@ -156,7 +156,7 @@ export default function Gallery() {
              </h2>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {addons.map((addon, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 group">
                 <div className="relative h-48 bg-gray-100 overflow-hidden">
