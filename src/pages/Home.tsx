@@ -42,7 +42,7 @@ export default function Home() {
                 <div className="bg-[#0F3460] p-6 rounded-lg shadow-xl relative overflow-hidden">
                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#F59E0B] rounded-bl-full opacity-20"></div>
                    <h2 className="text-3xl font-bold text-white mb-2 uppercase relative z-10">Our Product</h2>
-                   <h3 className="text-[#F59E0B] text-xl tracking-widest uppercase mb-6 relative z-10">Modulra Spaces</h3>
+                   <h3 className="text-[#F59E0B] text-xl tracking-widest uppercase mb-6 relative z-10">Modular House</h3>
                    
                    {/* Collage Grid */}
                    <div className="grid grid-cols-2 gap-3 relative z-10">
@@ -77,7 +77,7 @@ export default function Home() {
              </div>
              <div className="w-full md:w-1/2 space-y-6 text-gray-700">
                 <h2 className="text-3xl font-bold text-[#0F3460] leading-tight">
-                  Efficient, Durable, and Modern Modulra Residential & Office Solutions
+                  Efficient, Durable, and Modern Modular Residential & Office Solutions
                 </h2>
                 <p className="leading-relaxed">
                   Modular container systems developed by <strong>PT Prefab Modular Construction Indonesia</strong> offer a smart solution for modern residential and office needs that require fast construction, structural strength, and cost efficiency.
