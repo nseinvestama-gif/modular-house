@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿import { Link } from 'react-router-dom';
+﻿﻿﻿﻿﻿﻿﻿﻿import { Link } from 'react-router-dom';
 import { houses, testimonials } from '../data';
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-white">
       {/* Hero Section */}
       <div className="relative min-h-[500px] md:h-[600px] flex items-center justify-center bg-[#0F3460] overflow-hidden py-20 md:py-0">
-        <div className="absolute inset-0 bg-[url('/products/real-4.jpg')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('./products/real-4.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="container mx-auto px-4 md:px-8 relative z-10 text-center">
           <h1 className="text-3xl md:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
             INCLUSIVE MODULAR CONCEPTS<br/>
@@ -49,7 +49,7 @@ export default function Home() {
                       {/* Main Tall Image */}
                       <div className="relative h-64 md:h-80 rounded-lg overflow-hidden border-2 border-white/20 shadow-lg group">
                         <img 
-                          src="/products/real-3.jpg" 
+                          src="./products/real-3.jpg" 
                           alt="2 Floor Modular" 
                           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         />
@@ -59,14 +59,14 @@ export default function Home() {
                       <div className="flex flex-col gap-3">
                         <div className="relative h-32 md:h-40 rounded-lg overflow-hidden border-2 border-white/20 shadow-lg group">
                            <img 
-                              src="/products/real-1.jpg" 
+                              src="./products/real-1.jpg" 
                               alt="Modular Compact" 
                               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                            />
                         </div>
                         <div className="relative h-30 md:h-36 flex-grow rounded-lg overflow-hidden border-2 border-white/20 shadow-lg group">
                            <img 
-                              src="/products/real-2.jpg" 
+                              src="./products/real-2.jpg" 
                               alt="Modular Standard" 
                               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                            />
