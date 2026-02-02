@@ -1,11 +1,11 @@
-﻿﻿﻿﻿﻿
+﻿﻿﻿﻿﻿﻿﻿
 export const houses = [
   {
     id: '1',
     title: '3X3M',
     category: '1 Lantai',
     price: 'Rp 30.000.000',
-    image: '/products/real-1.jpg', 
+    image: '/modular-house/products/real-1.jpg', 
     specs: { bedrooms: 0, bathrooms: 0, area: '9m' },
     description: 'Unit kompak 3x3m. Cocok untuk pos keamanan, booth tiket, atau gudang kecil.',
     features: ['Struktur Baja', 'Dinding Sandwich Panel', '1 Pintu & 1 Jendela', 'Instalasi Cepat'],
@@ -21,7 +21,7 @@ export const houses = [
     title: '3X6M',
     category: '1 Lantai',
     price: 'Rp 35.000.000',
-    image: '/products/real-2.jpg', 
+    image: '/modular-house/products/real-2.jpg', 
     specs: { bedrooms: 1, bathrooms: 0, area: '18m' },
     description: 'Unit standar 3x6m. Ideal untuk kantor lapangan, mess karyawan, atau hunian sementara.',
     features: ['Struktur Baja Kokoh', 'Dinding Insulasi', 'Tahan Cuaca', 'Peredam Suara'],
@@ -37,7 +37,7 @@ export const houses = [
     title: '3X6M 2 FLOORS',
     category: '2 Lantai',
     price: 'Rp 85.000.000',
-    image: '/products/real-3.jpg',
+    image: '/modular-house/products/real-3.jpg',
     specs: { bedrooms: 2, bathrooms: 1, area: '36m' },
     description: 'Solusi 2 lantai untuk efisiensi lahan. Dilengkapi tangga eksternal dan balkon.',
     features: ['Hemat Lahan', 'Tangga & Railing', 'Konstruksi Bertingkat Aman', 'Layout Fleksibel'],
@@ -53,7 +53,7 @@ export const houses = [
     title: '3X6M + TEMPERED GLASS',
     category: 'Kaca Mewah',
     price: 'Rp 55.000.000',
-    image: '/products/real-4.jpg',
+    image: '/modular-house/products/real-4.jpg',
     specs: { bedrooms: 1, bathrooms: 0, area: '18m' },
     description: 'Tampilan premium dengan dinding kaca tempered full. Cocok untuk cafe, showroom, atau villa.',
     features: ['Kaca Tempered Tebal', 'Pencahayaan Alami', 'Frame Hitam Elegan', 'Tampilan Modern'],
@@ -69,7 +69,7 @@ export const houses = [
     title: 'CUSTOM (KNOCK DOWN)',
     category: 'Custom',
     price: 'Call for Price',
-    image: '/products/real-5.jpg',
+    image: '/modular-house/products/real-5.jpg',
     specs: { bedrooms: 0, bathrooms: 0, area: 'Custom' },
     description: 'Sistem modular tumpuk (stackable) yang bisa dibongkar pasang sesuai kebutuhan proyek besar.',
     features: ['Sistem Modular Fleksibel', 'Bisa Ditumpuk', 'Mudah Dimobilisasi', 'Kustomisasi Penuh']
@@ -79,7 +79,7 @@ export const houses = [
     title: 'CUSTOM (WELDED)',
     category: 'Custom',
     price: 'Call for Price',
-    image: '/products/real-6.jpg',
+    image: '/modular-house/products/real-6.jpg',
     specs: { bedrooms: 0, bathrooms: 0, area: 'Custom' },
     description: 'Bangunan permanen/semi-permanen dengan sistem las untuk durabilitas maksimal.',
     features: ['Struktur Las Kuat', 'Bentang Lebar', 'Atap Custom', 'Durabilitas Tinggi']
@@ -87,12 +87,12 @@ export const houses = [
 ];
 
 export const addons = [
-  { title: 'Indoor Toilet', price: 'Rp 8.000.000', image: '/products/real-7.jpg' },
-  { title: 'AC 1 PK (Midea)', price: 'Rp 4.500.000', image: '/products/real-8.jpg' },
-  { title: 'Partition', price: 'Rp 2.000.000', image: '/products/real-9.jpg' },
-  { title: 'Stairs', price: 'Rp 8.500.000', image: '/products/real-10.jpg' },
-  { title: 'Steel Door', price: 'Rp 1.500.000', image: '/products/real-11.jpg' },
-  { title: 'Window', price: 'Rp 1.000.000', image: '/products/real-12.jpg' }
+  { title: 'Indoor Toilet', price: 'Rp 8.000.000', image: '/modular-house/products/real-7.jpg' },
+  { title: 'AC 1 PK (Midea)', price: 'Rp 4.500.000', image: '/modular-house/products/real-8.jpg' },
+  { title: 'Partition', price: 'Rp 2.000.000', image: '/modular-house/products/real-9.jpg' },
+  { title: 'Stairs', price: 'Rp 8.500.000', image: '/modular-house/products/real-10.jpg' },
+  { title: 'Steel Door', price: 'Rp 1.500.000', image: '/modular-house/products/real-11.jpg' },
+  { title: 'Window', price: 'Rp 1.000.000', image: '/modular-house/products/real-12.jpg' }
 ];
 
 export const testimonials = [
@@ -127,18 +127,18 @@ export const materials = [
     id: '1',
     title: 'Sandwich Panel EPS',
     description: 'Material dinding ringan dengan insulasi styrofoam (density 10-15). Tahan panas dan ekonomis.',
-    image: '/products/real-13.jpg'
+    image: '/modular-house/products/real-13.jpg'
   },
   {
     id: '2',
     title: 'Rockwool Insulation',
     description: 'Insulasi serat batuan yang tahan api (fire resistant) dan peredam suara yang sangat baik.',
-    image: '/products/real-14.jpg'
+    image: '/modular-house/products/real-14.jpg'
   },
   {
     id: '3',
     title: 'Kaca Tempered 6mm',
     description: 'Kaca keamanan tinggi yang 5x lebih kuat dari kaca biasa. Memberikan tampilan modern dan elegan.',
-    image: '/products/real-4.jpg'
+    image: '/modular-house/products/real-4.jpg'
   }
 ];
