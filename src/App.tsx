@@ -1,4 +1,4 @@
-﻿import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/modular-house">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
