@@ -1,4 +1,4 @@
-﻿import { houses, addons } from '../data';
+﻿﻿﻿﻿import { houses, addons } from '../data';
 import { useState } from 'react';
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
