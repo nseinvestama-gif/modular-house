@@ -1,4 +1,4 @@
-﻿﻿﻿﻿import { Link, useLocation } from 'react-router-dom';
+﻿﻿﻿﻿﻿import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 
 // WhatsApp Icon SVG Component
@@ -33,7 +33,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <img 
-                src="/logo.svg" 
+                src="./logo.svg" 
                 alt="Modulra" 
                 className="h-12 w-auto group-hover:scale-105 transition-transform duration-300"
               />
