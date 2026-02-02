@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import { Link } from 'react-router-dom';
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import { Link } from 'react-router-dom';
 import { houses, testimonials } from '../data';
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
                       <div className="flex flex-col gap-3">
                         <div className="relative h-32 md:h-40 rounded-lg overflow-hidden border-2 border-white/20 shadow-lg group">
                            <img 
-                              src="./products/real-1.jpg" 
+                              src="./products/real-11.jpg" 
                               alt="Modular Compact" 
                               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                            />

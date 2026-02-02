@@ -1,11 +1,11 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 export const houses = [
   {
     id: '1',
     title: '3X3M',
     category: '1 Lantai',
     price: 'Rp 30.000.000',
-    image: './products/real-1.jpg', 
+    image: './products/real-11.jpg', 
     specs: { bedrooms: 0, bathrooms: 0, area: '9m' },
     description: 'Unit kompak 3x3m. Cocok untuk pos keamanan, booth tiket, atau gudang kecil.',
     features: ['Struktur Baja', 'Dinding Sandwich Panel', '1 Pintu & 1 Jendela', 'Instalasi Cepat'],
