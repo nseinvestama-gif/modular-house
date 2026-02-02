@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿
+﻿﻿﻿﻿﻿﻿﻿﻿
 export const houses = [
   {
     id: '1',
@@ -101,7 +101,7 @@ export const testimonials = [
     name: 'Budi Santoso',
     role: 'Project Manager',
     content: 'Unit 3x6m sangat membantu operasional site kami. Pemasangan cepat dan unit kokoh.',
-    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200',
+    avatar: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=200', // Indonesian/Asian looking male
     rating: 5
   },
   {
@@ -109,7 +109,7 @@ export const testimonials = [
     name: 'Siti Aminah',
     role: 'Pemilik Cafe',
     content: 'Tipe Tempered Glass bikin cafe saya terlihat sangat instagramable. Pelanggan suka!',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200',
+    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200', // Indonesian/Asian looking female
     rating: 5
   },
   {
@@ -117,7 +117,7 @@ export const testimonials = [
     name: 'Michael Chen',
     role: 'Developer',
     content: 'Pesan custom knockdown untuk mess pekerja. Sangat efisien bisa dipindah-pindah.',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200', // Asian male
     rating: 5
   }
 ];
